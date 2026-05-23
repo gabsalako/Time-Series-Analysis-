@@ -73,8 +73,8 @@ here	Reproducible file paths
 
 Usage
 Clone the repository and run the main script:
-git clone https://github.com/<your-username>/elbe-soil-fauna-resilience.git
-cd elbe-soil-fauna-resilience
+git clone https:https://github.com/gabsalako/Time-Series-Analysis-
+
 # In R, from the project root:
 source("Scripts/Time.seriesProj.R")
 The script will:
@@ -108,7 +108,7 @@ This analytical framework is designed to be transferable to:
 
 **Citation**
 If you use this code or framework, please cite:
-Salako, G. Zaytsev, A. Russell, D. et al. (2026). Biodiversity resilience to extreme flood disturbance: Long-term time-series analysis of soil fauna communities, Elbe River floodplain. GitHub repository. https://github.com/<your-username>/elbe-soil-fauna-resilience
+Salako, G. Zaytsev, A. Russell, D. et al. (2026). Biodiversity resilience to extreme flood disturbance: Long-term time-series analysis of soil fauna communities, Elbe River floodplain. GitHub repository.https://github.com/gabsalako/Time-Series-Analysis-
 
 Contact
 Dr. Gabriel Salako
