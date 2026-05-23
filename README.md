@@ -1,6 +1,6 @@
-*Biodiversity Resilience to Extreme Flood Disturbance
+**Biodiversity Resilience to Extreme Flood Disturbance
 Long-term time-series analysis biodiversity resilience of soil fauna communities — Elbe River Floodplain
-Dr. Gabriel Salako | Quantitative Ecologist & IPBES Expert
+**Dr. Gabriel Salako | Quantitative Ecologist & IPBES Expert
 
 Overview
 This repository contains the R code and analytical framework used to investigate how soil fauna communities collapse and recover following an extreme flood disturbance. Using long-term monitoring data (2001–2010) from the Elbe River floodplain, the project quantifies resistance and resilience dynamics of three earthworm ecological groups (ecogroups) — Endogeic, Epigeic, and Anecic — across a decadal window that brackets the catastrophic 2002 Elbe flood.
