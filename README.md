@@ -1,18 +1,18 @@
 **Biodiversity Resilience to Extreme Flood Disturbance
-Long-term time-series analysis biodiversity resilience of soil fauna communities — Elbe River Floodplain
-**Dr. Gabriel Salako | Quantitative Ecologist & IPBES Expert
+Long-term time-series analysis biodiversity resilience of soil fauna communities — Elbe River Floodplain**
+**Dr. Gabriel Salako | Quantitative Ecologist & IPBES Expert**
 
-Overview
+**Overview**
 This repository contains the R code and analytical framework used to investigate how soil fauna communities collapse and recover following an extreme flood disturbance. Using long-term monitoring data (2001–2010) from the Elbe River floodplain, the project quantifies resistance and resilience dynamics of three earthworm ecological groups (ecogroups) — Endogeic, Epigeic, and Anecic — across a decadal window that brackets the catastrophic 2002 Elbe flood.
 The framework is designed to be transferable to larger-scale biodiversity time-series datasets, including European freshwater biodiversity monitoring and multi-stressor analyses.
 
-Research Questions
+**Research Questions**
     • How do soil fauna communities collapse following an extreme flood event? 
     • What recovery trajectories are observed across different ecological groups? 
     • Which environmental variables drive resistance and recovery dynamics? 
     • How does abundance vary across land-use types (grassland, forest, arable)? 
 
-Data
+**Data**
 Source: Edaphobase — the German soil zoology data repository.
 Temporal coverage: 2001–2010 (pre-flood baseline: 2001; flood year: 2002; recovery: 2004–2010)
 Sampling criteria: Only sites with at least two consistent measurements per observation year were retained to ensure temporal reliability.
@@ -23,7 +23,7 @@ Epigeic	Surface litter/topsoil	High
 Anecic	Deep-burrowing	Moderate–High
 Note: The data included in this repository is a pooled spatio-temporal section of observations along the River Elbe and its basin. The full dataset resides in Edaphobase and is subject to its data access terms.
 
-Methods
+**Methods**
 1. Data Preparation
     • Abundance data for three ecogroups aggregated across sites and years 
     • Wide-to-long format reshaping using tidyr::pivot_longer() 
@@ -51,7 +51,7 @@ Precipitation	~650–750 mm
 Soil Moisture	~8–10 units
 Bulk Density	~1.4–1.5 g/cm³
 
-Repository Structure
+**Repository Structure**
 ├── Scripts/
 │   └── Time.seriesProj.R       # Main analysis script
 ├── Data/
@@ -60,7 +60,7 @@ Repository Structure
 │   └── figures/                # Generated plots
 └── README.md
 
-Dependencies
+**Dependencies**
 Install required packages in R:
 install.packages(c("tidyr", "ggplot2", "dplyr", "forecast", "mgcv", "here"))
 Package	Purpose
@@ -83,14 +83,14 @@ The script will:
     3. Produce the GAMM smooth plots with confidence intervals 
     4. Generate the stacked area chart of recovery and resistance trajectories 
 
-Key Results
+**Key Results**
     • Community collapse: All three ecogroups showed sharp abundance declines in the 2002 flood year, with Endogeic worms experiencing the steepest drop (from ~302 to 3 individuals). 
     • Recovery: Abundance rebounded substantially by 2004–2007, with Endogeic worms peaking around 2008 before declining again toward 2010. 
     • Resistance: Epigeic worms showed the highest resistance index (0.25–0.30), maintaining relatively stable presence through the disturbance period despite low absolute numbers. 
     • Environmental drivers: Soil pH was the strongest relative contributor to abundance variation (24%), followed by soil moisture (19%), clay content (17%), precipitation (15%), land use (14%), and elevation (11%). 
     • Land use: Grassland supported the highest predicted abundance, followed by Arable and Forest sites. 
 
-Visualisations
+**Visualisations**
 The script produces the following figures:
     • Time series scatter plot — raw abundance by ecogroup across years 
     • GAMM smooth plots — non-linear temporal trends per ecogroup with 95% confidence bands 
@@ -100,21 +100,21 @@ Additional outputs shown in the presentation include:
     • Bar chart of predicted abundance by land-use class 
     • Partial response curves for six environmental predictors 
 
-Broader Applications
+**Broader Applications**
 This analytical framework is designed to be transferable to:
     • European freshwater biodiversity time series — applying the same GAMM + resistance index approach to aquatic invertebrate communities 
     • Multi-stressor analyses — extending the model to include compound disturbance events (e.g., flooding combined with drought or pollution) 
     • IPBES biodiversity synthesis — contributing empirical evidence to large-scale assessments of disturbance-driven biodiversity change 
 
-Citation
+**Citation**
 If you use this code or framework, please cite:
-Salako, G. (year). Biodiversity resilience to extreme flood disturbance: Long-term time-series analysis of soil fauna communities, Elbe River floodplain. GitHub repository. https://github.com/<your-username>/elbe-soil-fauna-resilience
+Salako, G. Zaytsev, A. Russell, D. et al. (2026). Biodiversity resilience to extreme flood disturbance: Long-term time-series analysis of soil fauna communities, Elbe River floodplain. GitHub repository. https://github.com/<your-username>/elbe-soil-fauna-resilience
 
 Contact
 Dr. Gabriel Salako
 Quantitative Ecologist & IPBES Expert
-📧 (add your contact email)
-🌐 (add your institutional profile or ORCID)
+📧 (Google Scholar: scholar.google.com/citations?user=9xrm4cAAAAAJ )
+🌐 (ORCID: 0000-0001-7960-8200)
 
 Licence
 This project is licensed under the MIT Licence. See LICENSE for details.
