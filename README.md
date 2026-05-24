@@ -38,7 +38,7 @@ The species-specific smooth terms (s(Year, by = Species)) capture non-linear rec
 3. Resistance Index
 A resistance index was calculated to quantify the degree to which each ecogroup withstood the 2002 flood disturbance. Epigeic worms, despite lower absolute abundance, showed the highest resistance index among the three groups.
 4. Aggregate Spatial Prediction
-    • A Random Forest (RF) model was used to predict aggregate soil fauna abundance across the floodplain extent 
+    • A Generalised Additive Model (GAM) model was used to predict aggregate soil fauna abundance across the floodplain extent 
     • Predicted abundance mapped spatially using coordinate data within the study region (longitude ~11.5–14°E, latitude ~51.4–52.2°N) 
     • Predictions were also summarised by land-use class (Grassland, Forest, Arable) 
 5. Environmental Optima
