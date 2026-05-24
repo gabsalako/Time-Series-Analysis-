@@ -13,7 +13,7 @@ The framework is designed to be transferable to larger-scale biodiversity time-s
     • How does abundance vary across land-use types (grassland, forest, arable)? 
 
 **Data**
-Source: Edaphobase — the German soil zoology data repository.
+Source: Edaphobase — the Senckenberg Museum of Natural History Görlitz, German soil zoology data repository.
 Temporal coverage: 2001–2010 (pre-flood baseline: 2001; flood year: 2002; recovery: 2004–2010)
 Sampling criteria: Only sites with at least two consistent measurements per observation year were retained to ensure temporal reliability.
 Ecological groups modelled:
